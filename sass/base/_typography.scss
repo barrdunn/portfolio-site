@@ -1,21 +1,27 @@
-.heading-primary {
-    color: $color-white;
-
-    &--main {
-        font-size: 6rem;
-    }
-
-    &--sub {
-        font-size: 6rem;s
-    }
-}
-
 body {
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     /* font-size: 16px; */
-    color: $color-grey-dark;
+    color: $color-grey;
 }
+
+
+.heading-primary {
+    // background-color: orange;
+    color: white;
+    font-size: 5rem;
+
+    span {
+        color: white;
+    }
+}
+
+.heading-secondary {
+    font-weight: inherit;
+    padding-top: 3rem;
+}
+
+
 
 
 // .heading-primary {

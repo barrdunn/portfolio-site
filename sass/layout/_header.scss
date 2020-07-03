@@ -2,23 +2,43 @@
 /* clip path is very modern */
 .header {
     height: 95vh;
-    background-color: #242438;
+    background-color: $color-primary;
     position: relative;
 
-    &__hero-box {
+    .headshot {
+        height: 80vh;
+        // background-color: red;
         position: absolute;
-        right: 0%;
         bottom: 0rem;
-        height: 80rem;
-        height: 85vh;
+        right: 0rem;
     }
+}
 
-    &__hero {
-        height: 85vh;
-        bottom: 0rem;
-    }
+.text-box {
+    display: inline-block;
+    color: $color-grey;
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
     
-    &__text-box {
-  
+}
+
+.heading-primary {
+    font-weight: inherit;
+    color: inherit;
+    line-height: 6rem;
+    font-size: 4rem;
+    // background-color: red;
+
+    span {
+        background-image: linear-gradient(45deg, $color-blue-light, $color-blue-dark);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
+}
+
+.heading-secondary {
+    font-weight: 38.5rem;
+    width: 33rem;
+    letter-spacing: -0.015rem;
 }
